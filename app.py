@@ -2,6 +2,11 @@ import streamlit as st
 
 st.title("Cargar y Descargar Archivo")
 st.sidebar.header("Panel de Control")
+
+menu = st.sidebar.selectbox["Opcion 1",
+                            "Opcion 2",
+                            "Opcion 3"]
+
 st.markdown("---")
 
 file = st.file_uploader("Sube tu archivo", type=["csv"])
