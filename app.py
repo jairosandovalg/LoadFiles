@@ -1,11 +1,11 @@
 import streamlit as st
 
 st.title("Cargar y Descargar Archivo")
+st.sidebar.header("Panel de Control")
 
-# 1. Botón de carga
+
 file = st.file_uploader("Sube tu archivo", type=["csv"])
 
-# 2. Botón de descarga condicional (solo aparece si hay un archivo cargado)
 if file is not None:
   st.download_button(
       label="Descargar archivo modificado",
