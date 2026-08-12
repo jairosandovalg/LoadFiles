@@ -2,7 +2,6 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 st.title("Cargar y Descargar Archivo")
-st.sidebar.header("Panel de Control")
 
 with st.sidebar:
   st.header("Panel de Control")
