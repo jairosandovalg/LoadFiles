@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Cargar y Descargar Archivo")
 st.sidebar.header("Panel de Control")
-st.markdown("--")
+st.markdown("---")
 
 file = st.file_uploader("Sube tu archivo", type=["csv"])
 
