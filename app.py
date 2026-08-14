@@ -19,7 +19,6 @@ with st.sidebar:
       default_index=0,
   )
 
-st.markdown("---")
 
 # --- CONTENIDO DINÁMICO SEGÚN LA OPCIÓN SELECCIONADA ---
 
