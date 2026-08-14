@@ -2,7 +2,6 @@ import pandas as pd
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-st.title("Cargar y Descargar Archivo")
 
 with st.sidebar:
   st.header("Panel de Control")
@@ -25,6 +24,7 @@ st.markdown("---")
 # --- CONTENIDO DINÁMICO SEGÚN LA OPCIÓN SELECCIONADA ---
 
 if selected == "Modificación de archivos":
+  st.title("Cargar y Descargar Archivo")
   st.subheader("🛠️ Sección de Modificación de archivos")
   
   file = st.file_uploader("Sube tu archivo", type=["csv"])
